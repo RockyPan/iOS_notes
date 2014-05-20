@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="../supports/plugins/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+<script src="../supports/plugins/syntaxhighlighter_3.0.83/scripts/shBrushCpp.js"></script>
+<link href="../supports/plugins/syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../supports/plugins/syntaxhighlighter_3.0.83/styles/shThemeMidNight.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../supports/layout/layout.css">
+</head>
+<body>
+<br> <br> <br> <br> <br> <br>
+<h1>一级标题</h1>
+<img src="/pics/tempest_logo.png" height="150" weight="150" />
+
+<br> <br> <br> <br> <br> <br>
+
+<table>
+    <tr> <th>作者</th><th>版本</th><th>日期</th><th>备注</th> </tr>
+    <tr> <td>ID(中文名)</td> <td>1.0</td> <td>2014/</td> <td>开天辟地第一稿。</td> </tr>
+    <tr> <td></td> <td></td> <td></td> <td></td> </tr>
+    <tr> <td></td> <td></td> <td></td> <td></td> </tr>
+</table>
+
+<h2>二级标题</h2>
+<h3>三级标题</h3>
+<h4>四级标题</h4>
+<h5>五级标题</h5>
+<h6>六级标题</h6>
+
+<p>这是正文部分。<inner_code>printf("hello world.");</inner_code>前面是嵌在正文中的代码。</p>
+
+<pre class = "brush: cpp">
+int main()
+{
+    printf("This is some code");
+    return 0;
+}
+</pre>
+
+<div class="output">
+This is output!<br>
+0x0123456789abcdef
+</div>
+
+<table>
+    <caption>表格示例</caption>
+    <tr> <th>表头一</th><th>表头二</th><th>表头三</th> </tr>
+    <tr> <td>表项</td> <td>表项</td> <td>表项</td> </tr>
+    <tr> <td>表项</td> <td>表项</td> <td>表项</td> </tr>
+    <tr> <td>表项</td> <td>表项</td> <td>表项</td> </tr>
+</table>
+
+<ol>
+<li>列表项一。</li>
+<li>列表项二。</li>
+<li>列表项三。</li>
+<li>列表项四。</li>
+</ol>
+
+<iframe src="table.html" frameborder="0" width="100%" id="if1" name="if1" onload="this.height=if1.document.body.scrollHeight" />
+
+</body>
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+</html>
+
